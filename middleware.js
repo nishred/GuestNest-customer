@@ -5,8 +5,6 @@ export function middleware(request) {
 
   return NextResponse.redirect(new URL("/about", request.url));
 }*/
-unt"],
-};
 
 import { auth } from "@/app/_lib/auth";
 
@@ -14,4 +12,5 @@ import { auth } from "@/app/_lib/auth";
 export const middleware = auth;
 
 export const config = {
-  matcher: ["/acco
+  matcher: ["/account"],
+};

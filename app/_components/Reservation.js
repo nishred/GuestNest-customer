@@ -11,7 +11,6 @@ async function Reservation({ cabin }) {
     getBookedDatesByCabinId(cabin.id),
   ]);
 
-  
   const session = await auth();
 
   return (

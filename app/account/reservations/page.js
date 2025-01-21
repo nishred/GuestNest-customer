@@ -6,6 +6,7 @@ export const metadata = {
   title: "Reservations",
 };
 
+
 export default async function Page() {
 
   const session = await auth();
@@ -31,4 +32,8 @@ export default async function Page() {
     </div>
   );
 }
+
+
+
+
 
